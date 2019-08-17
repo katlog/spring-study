@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-study</artifactId>
+        <groupId>name.katlog</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>springboot-third-learn</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <modules>
+
+        <module>springboot-jsp</module>
+        <module>springboot-freemark</module>
+        <module>springboot-mybatis</module>
+        <module>springboot-schedule</module>
+        <module>springboot-logback</module>
+        <module>springboot-aop</module>
+        <module>springboot-errorpage</module>
+        <module>springboot-servlet</module>
+        <module>springboot-poi</module>
+        <module>springboot-session</module>
+        <module>springboot-property</module>
+        <module>springboot-exception</module>
+        <module>springboot-mail</module>
+        <module>springboot-ssl</module>
+        <module>springboot-multi-datasource</module>
+        <module>springboot-restdocs</module>
+        <module>springboot-docker</module>
+        <module>springboot-swagger</module>
+        <module>springboot-interceptor</module>
+        <module>springboot-validator</module>
+        <module>springboot-websocket</module>
+    </modules>
+
+</project>
