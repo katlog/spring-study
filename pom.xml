@@ -13,6 +13,7 @@
         <module>springboot-study</module>
         <module>springcloud-study</module>
         <module>springboot-third-learn</module>
+        <module>spring3-enterprise-dev</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -28,7 +29,7 @@
         <lombok.version>1.16.20</lombok.version>
         <guava.version>26.0-jre</guava.version>
         <fastjson.version>1.2.58</fastjson.version>
-        <junit.version>1.2.58</junit.version>
+        <junit.version>1.4</junit.version>
     </properties>
 
 

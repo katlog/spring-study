@@ -14,7 +14,7 @@ import java.util.List;
  * Created by fw on 2019/8/17
  */
 @Controller
-@RequestMapping
+@RequestMapping("reading_list")
 public class ReadingListController {
 
     @Autowired
