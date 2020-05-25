@@ -1,8 +1,10 @@
 #概述
 Spring 2.5引入了基于注解的组件扫描
 ##spring 3
-Spring 3.0引入了基于Java的配置
-Spring 3.1开始支持基于Profile的配置
+- 核心API更新到java5.0  ：加入泛型
+- Spring 3.0引入了基于Java的配置@Config
+- spring 表达式语言  spel
+- Spring 3.1开始支持基于Profile的配置
 ## spring 4
 Spring 4.0 条件化配置
 Spring 4.2里，可选择基于规则的SpringClassRule 和SpringMethodRule 来代替SpringJUnit4ClassRunner 

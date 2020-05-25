@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "com.zyd")
 // PropertySource默认取application.properties
-// @PropertySource(value = "config.properties")
+// @PropertySource(value = "conf.properties")
 public class PropertiesConfig {
 
 	public String type3;

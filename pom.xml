@@ -8,7 +8,6 @@
     <artifactId>spring-study</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring3-study</module>
         <module>spring4-study</module>
         <module>springboot-study</module>
         <module>springcloud-study</module>
@@ -17,6 +16,34 @@
     </modules>
     <packaging>pom</packaging>
 
+
+    <repositories>
+        <repository>
+            <id>aliyun-repository</id>
+            <name>aliyun repository</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+
+        <repository>
+            <id>springio-libs-release</id>
+            <name>springio-libs-release</name>
+            <url>https://repo.spring.io/libs-release/</url>
+        </repository>
+
+        <repository>
+            <id>springio-plugins-release</id>
+            <name>springio-plugins-release</name>
+            <url>https://repo.spring.io/plugins-release/</url>
+        </repository>
+
+        <repository>
+            <id>edu</id>
+            <name>edu</name>
+            <url>	http://maven.icm.edu.pl/artifactory/repo/</url>
+        </repository>
+
+
+    </repositories>
 
 
     <properties>
@@ -29,7 +56,7 @@
         <lombok.version>1.16.20</lombok.version>
         <guava.version>26.0-jre</guava.version>
         <fastjson.version>1.2.58</fastjson.version>
-        <junit.version>1.4</junit.version>
+        <junit.version>3.7</junit.version>
     </properties>
 
 

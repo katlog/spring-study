@@ -52,12 +52,12 @@ public class CustomTestDataSourceConfig {
 
 //        MapperHelper mapperHelper = new MapperHelper();
 //        //特殊配置
-//        Config config = new Config();
+//        Config conf = new Config();
 //        //具体支持的参数看后面的文档
-//        config.setIDENTITY("MYSQL");
-//        config.setNotEmpty(false);
+//        conf.setIDENTITY("MYSQL");
+//        conf.setNotEmpty(false);
 //        //设置配置
-//        mapperHelper.setConfig(config);
+//        mapperHelper.setConfig(conf);
 //        // 注册自己项目中使用的通用Mapper接口，这里没有默认值，必须手动注册
 //        mapperHelper.registerMapper(MyMapper.class);
 //        //配置完成后，执行下面的操作
